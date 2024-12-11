@@ -4,14 +4,13 @@
     box-sizing: border-box;
     font-family: "Noto Serif Bengali", serif;
 }
+body {
+  overflow-x: hidden;
+}
 
 #navbarNav .navbar-nav .nav-item a{
   font-size: 18px;
 }
-.navbar-custom {
-  border-bottom: 0.25px solid black;
-}
-
 
 /* Leatest Post */
 .fixed-size-img {
@@ -49,10 +48,13 @@
 .post-caption {
   font-size: 14px;
   color: #777;
-  text-align: center;
   margin-top: 5px;
 }
-
+.post-ref{
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px;
+}
 .social-icons i {
   font-size: 17px;
   /* margin-right: 15px; */
